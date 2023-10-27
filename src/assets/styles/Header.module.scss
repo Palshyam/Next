@@ -1,0 +1,37 @@
+@import "variables.scss";
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+    color: $white_color;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    .logo {
+        flex: 0 0 20%;
+    }
+
+    .nav {
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            gap: 40px;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: $white_color;
+                }
+            }
+        }
+    }
+
+
+}

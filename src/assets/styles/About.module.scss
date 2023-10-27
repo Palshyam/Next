@@ -1,0 +1,59 @@
+@import "variables.scss";
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    .about_img_part {
+        flex: 0 0 calc(50% - 20px);
+
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+    }
+
+    .about_content_part {
+        flex: 0 0 calc(50% - 20px);
+
+        h3 {
+            font-size: $headingh1;
+            margin: 0;
+            padding: 10px 0px;
+            color: $white_color;
+        }
+
+        p {
+            margin: 0;
+            font-size: $headingh4;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+            color: $white_color;
+        }
+
+        button{
+            padding: 15px 40px;
+            background-color: $button_bg;
+            text-align: center;
+            border-radius: 50px;
+            color: $white_color;
+            display: inline-block;
+            transition: all 0.5s ease-in-out;
+            border: none;
+            cursor: pointer;
+            font-size: $descreption;
+            font-family: $secondary-font;
+
+            &:hover {
+                color: $black_color;
+                background-color: $white_bg;
+            }
+        }
+        .content{
+            margin-bottom: 20px;
+            width: 100%;
+            line-height: 1.6;
+        }
+    }
+}

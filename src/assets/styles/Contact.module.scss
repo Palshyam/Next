@@ -1,0 +1,140 @@
+@import "variables.scss";
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .left {
+        flex: 0 0 calc(50% - 20px);
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style: none;
+                margin-bottom: 20px;
+                display: inline-block;
+                width: 100%;
+
+                .list_inner {
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                    background-color: #222;
+                    border-radius: 10px;
+                    padding: 15px 10px;
+                    box-sizing: border-box;
+
+                    span {
+                        display: inline-block;
+                        padding-left: 48px;
+
+                        a {
+                            color: $white_color;
+                            transition: all 0.5s ease-in-out;
+
+                            &:hover {
+                                color: $button_bg;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .heading {
+        width: 100%;
+
+        h1 {
+            font-size: $headingh1;
+            font-family: $secondary-font;
+            font-weight: $fontweightbold;
+            padding: 20px 0;
+            color: $white_color;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+            padding-bottom: 15px;
+            margin-top: 20px;
+
+            span {
+                color: $button_bg;
+            }
+        }
+    }
+
+    .right {
+        flex: 0 0 calc(50% - 20px);
+
+        .row_block {
+            .antinputnumber {
+                width: 100%;
+                border: none;
+            }
+        }
+
+        input,
+        textarea {
+            border: none;
+            background-color: #222;
+            padding: 15px 10px;
+            border-radius: 4px;
+            font-family: $secondary-font;
+            font-size: $descreption;
+            height: auto;
+            line-height: normal;
+            color: $white_color;
+
+            &::-webkit-input-placeholder {
+                color: inherit;
+            }
+
+            &::-moz-placeholder {
+                color: inherit;
+            }
+
+            &:-ms-input-placeholder {
+                color: inherit;
+            }
+
+            &:-moz-placeholder {
+                color: inherit;
+            }
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        button {
+            padding: 10px 40px;
+            background-color: $button_bg;
+            text-align: center;
+            border-radius: 50px;
+            color: $white_color;
+            display: inline-block;
+            transition: all 0.5s ease-in-out;
+            border: none;
+            cursor: pointer;
+            font-size: $descreption;
+            font-family: $secondary-font;
+            box-shadow: none;
+            height: auto;
+
+            &:hover {
+                color: $black_color !important;
+                background-color: $white_bg !important;
+            }
+        }
+
+    }
+}

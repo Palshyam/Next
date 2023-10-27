@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "title": "Recent Posts",
+        "menu": [
+            {
+                "id": 1,
+                "link": "Building brands through customer service"
+            },
+            {
+                "id": 2,
+                "link": "Unstoppable Jamstack and Gatsby opportunity"
+            },
+            {
+                "id": 3,
+                "link": "Electron framework adds encryption API"
+            },
+            {
+                "id": 4,
+                "link": "Why developers are so divided over WordPress"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Categories",
+        "menu": [
+            {
+                "id": 1,
+                "link": "Branding"
+            },
+            {
+                "id": 2,
+                "link": "Design"
+            },
+            {
+                "id": 3,
+                "link": "Lifestyle"
+            },
+            {
+                "id": 4,
+                "link": "Media"
+            },
+            {
+                "id": 5,
+                "link": "Modern"
+            },
+            {
+                "id": 6,
+                "link": "Technology"
+            },
+            {
+                "id": 7,
+                "link": "Uncategorized"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Recent Comments",
+        "menu": [
+            {
+                "id": 1,
+                "link": "A WordPress Commenter on Hello world!"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Archives",
+        "menu": [
+            {
+                "id": 1,
+                "link": "August 2023"
+            }
+        ]
+    }
+]
